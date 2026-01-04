@@ -1,0 +1,76 @@
+<!doctype html>
+main{padding:2rem 1rem}
+section{margin-bottom:1.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem}
+.card{border:1px solid #eee;padding:1rem;border-radius:8px;background:white}
+footer{border-top:1px solid #eee;padding:1rem 0;color:var(--muted)}
+.contact a{color:var(--accent);text-decoration:none}
+@media (min-width:800px){h1{font-size:2.25rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="wrap">
+<h1>QESTOM</h1>
+<p class="lead">Profesjonalne usługi informatyczne — development, wdrożenia, wsparcie.</p>
+<nav>
+<a href="#uslugi">Usługi</a>
+<a href="#o-nas">O nas</a>
+<a href="#kontakt">Kontakt</a>
+</nav>
+</div>
+</header>
+
+
+<main>
+<div class="wrap">
+<section id="uslugi">
+<h2>Oferta</h2>
+<div class="grid">
+<div class="card">
+<h3>Strony & aplikacje</h3>
+<p>Tworzenie wydajnych, responsywnych stron i aplikacji z naciskiem na UX i bezpieczeństwo.</p>
+</div>
+<div class="card">
+<h3>Audyt i bezpieczeństwo</h3>
+<p>Przeprowadzanie audytów, testy penetracyjne i wdrożenia poprawek bezpieczeństwa.</p>
+</div>
+<div class="card">
+<h3>Wsparcie & utrzymanie</h3>
+<p>Umowy SLA, monitoring, backupy i szybkie reakcje na incydenty.</p>
+</div>
+</div>
+</section>
+
+
+<section id="o-nas">
+<h2>O nas</h2>
+<p>Jednoosobowa działalnością gospodarczą świadczącą usługi IT dla małych i średnich firm. Skupia się na prostych, efektywnych rozwiązaniach oraz jasnej komunikacji z klientem.</p>
+</section>
+
+
+<section id="kontakt" class="contact">
+<h2>Kontakt</h2>
+<p>E-mail: <a href="">YOUR_EMAIL</a></p>
+<p>Telefon: </p>
+<p>Adres: </p>
+</section>
+
+
+</div>
+</main>
+
+
+<footer>
+<div class="wrap">
+<small>© <span id="year">2026</span> QESTOM — Wszystkie prawa zastrzeżone.</small>
+</div>
+</footer>
+
+
+<script>
+// automatyczna aktualizacja roku
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

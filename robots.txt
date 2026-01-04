@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+
+# Lokalizacja mapy strony
+Sitemap: https://qestom.pl/sitemap.xml
